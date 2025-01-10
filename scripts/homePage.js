@@ -205,3 +205,19 @@ cse.addEventListener("click", () => {
 
 
 
+
+
+
+
+
+// hamburger button
+
+const hamb = document.querySelector("#hamburguer");
+
+const navigation = document.querySelector("#navigation");
+
+hamb.addEventListener("click", () =>{
+
+    navigation.classList.toggle("show");
+   hamb.classList.toggle("show"); 
+});
