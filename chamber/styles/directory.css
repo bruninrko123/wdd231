@@ -1,0 +1,28 @@
+
+#companyIcon{
+    display: grid;
+
+    grid-template-columns: 45px auto ;
+    align-items: center;
+   width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav{
+    justify-self: end;
+}
+
+#navigation{
+display: flex;
+justify-content: space-around;
+
+list-style-type: none;
+
+width: 100%;
+}
