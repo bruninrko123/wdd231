@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Tech Innovators Corp",
+        "address": "Rua da Inovação, 123, Rio de Janeiro, RJ, Brasil",
+        "phone": "+55 21 1234-5678",
+        "website": "http://techinnovators.com.br",
+        "email": "contact@techinnovators.com.br",
+        "image": "Tech-Innovators-Corp-logo.png",
+        "membershipLevel": 3,
+        "tagline": "Driving Tomorrow's Technology Today"
+    },
+    {
+        "name": "Green Energy Solutions",
+        "address": "Avenida Solar, 456, Niterói, RJ, Brasil",
+        "phone": "+55 21 9876-5432",
+        "website": "http://greenenergy.com.br",
+        "email": "info@greenenergy.com.br",
+        "image": "Green-Energy-Solutions-logo.png",
+        "membershipLevel": 2,
+        "tagline": "Powering the Future, Sustainably"
+    },
+    {
+        "name": "NextGen Robotics",
+        "address": "Alameda da Robótica, 789, Petrópolis, RJ, Brasil",
+        "phone": "+55 24 2345-6789",
+        "website": "http://nextgenrobotics.com.br",
+        "email": "support@nextgenrobotics.com.br",
+        "image": "NextGen-Robotics-logo.png",
+        "membershipLevel": 3,
+        "tagline": "Creating Smart Solutions for a Better World"
+    },
+    {
+        "name": "Healthy Living Inc.",
+        "address": "Rua da Saúde, 101, Nova Iguaçu, RJ, Brasil",
+        "phone": "+55 21 8765-4321",
+        "website": "http://healthyliving.com.br",
+        "email": "wellness@healthyliving.com.br",
+        "image": "Healthy-Living-Inc. logo.png",
+        "membershipLevel": 1,
+        "tagline": "Your Wellness, Our Priority"
+    },
+    {
+        "name": "Urban Mobility Systems",
+        "address": "Avenida Transporte, 202, Duque de Caxias, RJ, Brasil",
+        "phone": "+55 21 7890-1234",
+        "website": "http://urbanmobility.com.br",
+        "email": "mobility@urbanmobility.com.br",
+        "image": "Urban-Mobility-Systems-logo.png",
+        "membershipLevel": 2,
+        "tagline": "Innovating Transportation for Urban Life"
+    },
+    {
+        "name": "Cloud Pioneers",
+        "address": "Rua Digital, 303, Volta Redonda, RJ, Brasil",
+        "phone": "+55 24 5432-1098",
+        "website": "http://cloudpioneers.com.br",
+        "email": "contact@cloudpioneers.com.br",
+        "image": "Cloud-Pioneers-logo.png",
+        "membershipLevel": 3,
+        "tagline": "Leading the Way to the Cloud"
+    },
+    {
+        "name": "Creative Media Studios",
+        "address": "Avenida Criativa, 404, Campos dos Goytacazes, RJ, Brasil",
+        "phone": "+55 22 3210-4567",
+        "website": "http://creativemedia.com.br",
+        "email": "media@creativemedia.com.br",
+        "image": "Creative-Media-Studios-logo.png",
+        "membershipLevel": 1,
+        "tagline": "Unleashing Creativity Through Media"
+    }
+]
+
+
+  
