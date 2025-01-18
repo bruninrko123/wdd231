@@ -17,7 +17,7 @@
 <script src="scripts/directory.js" defer></script>
 
 <!-- favorite icon-->
-<link rel="icon" href="images/favIcon for a chamber of commerce in Rio de Janeiro Brazil.png">
+<link rel="icon" href="images/favIcon-opt.png">
 
 <!-- open graph meta tags-->
 <meta property="og:title" content="Rio de Janeiro Chamber of Commerce">
@@ -47,7 +47,9 @@
 <body>
     <header>,
         <div id="companyIcon">
-            <img src="images/favIcon for a chamber of commerce in Rio de Janeiro Brazil.png" alt="Company's icon" width="44" height="auto">
+
+            
+            <img src="images/favIcon-opt.png" alt="Company's icon" width="44">
             <div id="chamberName">
             
             <h1>Rio de Janeiro</h1>
@@ -69,11 +71,19 @@
     </header>
 
 
-    <body>
+    <main>
 
-       <section class="heroImage"><img src="images/Rio-de-Janeiro.webp" alt="Image of Rio de Janeiro" width="400">
-       </section>
-
+       
+       <div class="heroImage">
+        
+            <picture>
+                <source srcset="images/Rio-de-Janeiro-large.webp" media="(min-width: 1000px)">
+                <source media="(min-width: 500px)" srcset="images/Rio-de-Janeiro-small.webp">
+                <img src="images/hero-small.webp" alt="Rio de Janeiro Temple" width="500" height="250" class="responsive-image">
+                
+            </picture>
+    </div>
+        
         <h1 id="home">Home</h1>
         <div class="information">
             <section class="infoCard">
@@ -97,8 +107,8 @@
 
         <button id="layoutButton"></button>
         <div class="companyCards"></div>
-    </body>
-
+    
+    </main>
 
 
     <footer>
@@ -127,5 +137,7 @@
             <p>WDD 231 Class project<br>Bruno dos Santos Alves<br><span id="copyright"></span><br>Last modification: <span id="lastModified"></span></p>
         </div>
     </footer>
+
+
 </body>
 </html>
