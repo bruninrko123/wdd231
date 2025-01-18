@@ -1,0 +1,230 @@
+@media screen and (min-width: 601px) {
+    
+
+
+h1,h2{
+    font-family: "Sour Gummy", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+     
+}
+
+p, footer{
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+   background-color: rgb(203, 255, 255);
+   padding-bottom: 5px;
+    
+}
+
+nav{
+    margin-right: 50px;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    
+    list-style-type: none;
+    flex-direction: row;
+    
+    background-color: rgb(203, 255, 255);
+    width: 100%;
+
+    
+    
+    }
+
+    #navigation a{
+        text-decoration: none;
+        display: block;
+        font-size: 1.2rem;
+        color: black;
+        
+    }
+
+    #navigation a:hover{
+        background-color: rgba(0, 0, 0, 0.2);
+            
+    }
+
+
+
+    #companyIcon{
+        display: grid;
+    
+        grid-template-columns: 45px auto ;
+        align-items: center;
+       width: 100%;
+    }
+
+    #chamberName h1, #chamberName p {
+        padding:0;
+        margin: 0;
+        margin-left: 5px
+    
+    }
+
+
+
+
+/* BODY */
+
+
+.information{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 5px;
+    
+}
+
+.infoCard{
+    border: 1px solid black;
+    
+    border-top: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.information h2{
+    background-color: rgb(203, 255, 255);
+    margin-top: -1px;
+    border-top: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+}
+
+
+
+
+/* ATTENTION : COMPANY CARDS */
+
+
+
+#layoutButton::before{
+    content: "Column layout";
+    height: 45px;
+    justify-self: center;
+    
+}
+
+#layoutButton.layout::before{
+    content: "Grid layout";
+
+    height: 45px;
+
+}
+
+#layoutButton{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    justify-self: center;
+    margin: 10px;
+    background-color:rgb(203, 255, 255) ;
+    
+    
+}
+
+.companyCards.layout{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-self: center;
+}
+
+
+.companyCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    margin: 5px;
+}
+
+.memberCard{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 255, 182);
+    text-align: center;
+}
+
+
+.cardUpper{
+    border-bottom: 1px solid black;
+    
+}
+.cardUpper h2, .cardUpper p{
+    margin:0;
+}
+
+.cardUpper p{
+    margin-bottom: 10px;
+}
+
+.imageSection{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 5px;
+
+}
+
+.cardBottom{
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+/* FOOTER */
+footer{
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(203, 255, 255);
+    padding: 10px;
+}
+
+footer p{
+    line-height: 1.6;
+}
+
+
+
+#socialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    gap: 50px;
+
+}
+
+
+
+}

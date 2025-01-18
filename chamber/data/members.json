@@ -5,7 +5,7 @@
         "phone": "+55 21 1234-5678",
         "website": "http://techinnovators.com.br",
         "email": "contact@techinnovators.com.br",
-        "image": "Tech-Innovators-Corp-logo.png",
+        "image": "tech-innovators-corp-logo-opt.webp",
         "membershipLevel": 3,
         "tagline": "Driving Tomorrow's Technology Today"
     },
@@ -15,7 +15,7 @@
         "phone": "+55 21 9876-5432",
         "website": "http://greenenergy.com.br",
         "email": "info@greenenergy.com.br",
-        "image": "Green-Energy-Solutions-logo.png",
+        "image": "Green-Energy-Solutions-logo-opt.webp",
         "membershipLevel": 2,
         "tagline": "Powering the Future, Sustainably"
     },
@@ -25,7 +25,7 @@
         "phone": "+55 24 2345-6789",
         "website": "http://nextgenrobotics.com.br",
         "email": "support@nextgenrobotics.com.br",
-        "image": "NextGen-Robotics-logo.png",
+        "image": "nextgen-robotics-logo-opt.webp",
         "membershipLevel": 3,
         "tagline": "Creating Smart Solutions for a Better World"
     },
@@ -35,7 +35,7 @@
         "phone": "+55 21 8765-4321",
         "website": "http://healthyliving.com.br",
         "email": "wellness@healthyliving.com.br",
-        "image": "Healthy-Living-Inc. logo.png",
+        "image": "healthy-living-inc_logo-opt.webp",
         "membershipLevel": 1,
         "tagline": "Your Wellness, Our Priority"
     },
@@ -45,7 +45,7 @@
         "phone": "+55 21 7890-1234",
         "website": "http://urbanmobility.com.br",
         "email": "mobility@urbanmobility.com.br",
-        "image": "Urban-Mobility-Systems-logo.png",
+        "image": "urban-mobility-systems-logo-opt.webp",
         "membershipLevel": 2,
         "tagline": "Innovating Transportation for Urban Life"
     },
@@ -55,7 +55,7 @@
         "phone": "+55 24 5432-1098",
         "website": "http://cloudpioneers.com.br",
         "email": "contact@cloudpioneers.com.br",
-        "image": "Cloud-Pioneers-logo.png",
+        "image": "Cloud-Pioneers-logo-opt.webp",
         "membershipLevel": 3,
         "tagline": "Leading the Way to the Cloud"
     },
@@ -65,7 +65,7 @@
         "phone": "+55 22 3210-4567",
         "website": "http://creativemedia.com.br",
         "email": "media@creativemedia.com.br",
-        "image": "Creative-Media-Studios-logo.png",
+        "image": "Creative-Media-Studios-logo-opt.webp",
         "membershipLevel": 1,
         "tagline": "Unleashing Creativity Through Media"
     }

@@ -68,7 +68,7 @@ function cardTemplate(member){
     <section class = "memberCard">
     <div class = cardUpper><h2>${member.name}</h2><br><p>${member.tagline}</p></div>
     <section class= imageSection>
-    <div> <img src="images/${member.image}" width="80" height="auto"></div>
+    <div> <img src="images/${member.image}" width="80" height="auto" alt ="${member.tagline} logo"></div>
     <div class = cardBottom><strong>EMAIL</strong>: ${member.email}<br><strong>PHONE</strong>: ${member.phone}<br><strong>URL</strong>:${member.website}</div></section></section>`
  }
 
@@ -106,3 +106,18 @@ copyright.innerHTML = `©${currentYear} RJ Chamber of Commerce`;
 
  
  
+
+//togggle between grid and one column layout
+
+
+const companyCards = document.querySelector(".companyCards");
+
+
+const layoutButton = document.querySelector("#layoutButton");
+
+layoutButton.addEventListener("click", () =>{
+
+    layoutButton.classList.toggle("layout");
+
+    companyCards.classList.toggle("layout");
+});
