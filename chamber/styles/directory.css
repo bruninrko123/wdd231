@@ -160,6 +160,24 @@ nav.open{
     border-top-right-radius: 5px;
 }
 
+#weatherForecast p{
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#currentWeather{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+}
+
+#currentWeather p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+
+
 .memberCard{
     border: 1px solid black;
     border-radius: 5px;
