@@ -1,4 +1,4 @@
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 551px) {
     
 
 
@@ -176,6 +176,7 @@ nav{
     background-color:rgb(203, 255, 255) ;
     
     
+    
 }
 
 .companyCards.layout{
@@ -199,6 +200,7 @@ nav{
     padding: 10px;
     background-color: rgb(255, 255, 182);
     text-align: center;
+    
 }
 
 
@@ -238,6 +240,7 @@ footer{
     flex-direction: row;
     background-color: rgb(203, 255, 255);
     padding: 10px;
+    max-height: 240px;
 }
 
 footer p{
