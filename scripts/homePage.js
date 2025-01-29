@@ -80,6 +80,32 @@ const courses = [
 
 
 
+//doing the modals
+
+const dialogBox = document.querySelector("#dialogBox");
+const courseSymbol = document.querySelector("#dialogBox h1");
+const closeButton = document.querySelector("#dialogBox button");
+const courseName = document.querySelector("#dialogBox h2");
+const courseDecription = document.querySelector("#dialogBox p");
+
+// creating div to put the h1 and the button
+
+const titleDiv = document.createElement("div");
+titleDiv.classList.add("titleDiv");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,28 +139,124 @@ lastModifiedParagraph.innerHTML = `Last updated: ${lastModified}`;
 
 
 
-function cardTemplate(card) {
-    if(card.completed === false){
-    return`
-    <div class="courseBox"><h2>${card.subject} ${card.number}</h2></div>`;
-    }
+// function cardTemplate(card) {
+//     if(card.completed === false){
+//     return`
+//     <div class="courseBox"><h2>${card.subject} ${card.number}</h2></div>`;
+//     }
 
-    else{
-        return`
-    <div class="completeCourseBox"><h2>${card.subject} ${card.number}</h2></div>`;
+//     else{
+//         return`
+//     <div class="completeCourseBox"><h2>${card.subject} ${card.number}</h2></div>`;
 
-    }
-}
+//     }
+// }
 
+
+
+
+// function displayCards(cards){
+//     const html = cards.map(cardTemplate)
+    
+//     const courseSection = document.querySelector(".courseBoxes");
+
+//     courseSection.innerHTML = html.join("");
+    
+// }
 
 function displayCards(cards){
-    const html = cards.map(cardTemplate);
-    
-    const courseSection = document.querySelector(".courseBoxes");
 
-    courseSection.innerHTML = html.join("");
+    const courseSection = document.querySelector(".courseBoxes");
+    
+    cards.forEach(currentCard => {
+        
+
+        if(currentCard.completed === false){
+            const div = document.createElement("div");
+            div.classList.add("courseBox");
+            const h2 = document.createElement("h2");
+
+            //appending
+
+            h2.innerHTML = `${currentCard.subject} ${currentCard.number}`;
+
+            div.appendChild(h2);
+
+            //event listener
+
+            div.addEventListener("click", () => {
+
+                showStuff(currentCard);
+            });
+
+
+            courseSection.appendChild(div);
+        }
+
+        else{
+            
+            const div = document.createElement("div");
+            div.classList.add("completeCourseBox");
+            const h2 = document.createElement("h2");
+
+            //appending
+
+            h2.innerHTML = `${currentCard.subject} ${currentCard.number}`;
+
+            div.appendChild(h2);
+
+
+            // event listener
+
+            div.addEventListener("click", () => {
+
+                showStuff(currentCard);
+            });
+
+
+            courseSection.appendChild(div);
+        }
+        
+      
+
+
+        
+    });
+
+    
+};
+
+
+//closing the modals
+
+closeButton.addEventListener("click", () =>{
+
+    dialogBox.close();
+});
+
+
+window.onclick = function(event){
+    if(event.target == dialogBox){
+        dialogBox.close();
+    }
     
 }
+
+
+
+function showStuff(data){
+    
+
+    courseSymbol.textContent = `${data.subject} ${data.number}`;
+    courseName.textContent = `${data.title}`;
+    titleDiv.innerHTML = `${courseSymbol} ${closeButton}`;
+
+
+    courseDecription.innerHTML = `${data.description} <br><br>Technology: ${data.technology}`;
+    dialogBox.showModal();
+};
+
+
 
 
 displayCards(courses);
@@ -158,11 +280,11 @@ const wdd = document.querySelector("#wddCourses");
 
 const cse = document.querySelector("#cseCourses");
 
-
+const courseSection = document.querySelector(".courseBoxes");
 
 allCourses.addEventListener("click", () => {
 
-
+    courseSection.innerHTML = ``;
     displayCards(courses);
 
    
@@ -176,6 +298,7 @@ allCourses.addEventListener("click", () => {
 
 wdd.addEventListener("click", () => {
 
+    courseSection.innerHTML = ``;
     const wdd = courses.filter(course => course.subject ==="WDD");
 
     displayCards(wdd);
@@ -191,6 +314,7 @@ wdd.addEventListener("click", () => {
 
 cse.addEventListener("click", () => {
 
+    courseSection.innerHTML = ``;
     const all = courses.filter(course => course.subject ==="CSE");
 
     displayCards(all);

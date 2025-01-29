@@ -205,6 +205,8 @@ header {
         height: 100%;
     }
     
+
+    /* ANIMATING  */
     .buttons{
         border-bottom: 1px solid black;
         padding: 10px;
@@ -217,13 +219,25 @@ header {
         border-radius: 5px;
         padding: 10px;
         background-color: greenyellow;
+        transition: all 0.5 ease-in-out;
     }
     
     #allCourses:hover, #wddCourses:hover, #cseCourses:hover{
         background-color: aqua;
+        width: 120px;
+        animation: jump 0.3s ease-in-out;
+        
     }
 
+    @keyframes jump {
+        
+        0%, 100% {transform: translateY(0);}
 
+        50%{
+            transform: translateY(-20px);
+        }
+        
+    }
 
 
     /* FOOTER  */
@@ -232,4 +246,32 @@ header {
         background-color: blue;
         text-align: center;
     }
+
+    
+    /* MODALS */
+
+    ::backdrop{
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    
+    #dialogBox div{
+        display: grid;
+        grid-template-columns: auto 44px;
+        background-color: blue;
+        margin-top: -16px;
+        margin-left: -16px;
+        color: white;
+    }
+    
+    #dialogBox button{
+        width: 60px;
+        font-size: 44px;
+    }
+    
+    #dialogBox{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
 }

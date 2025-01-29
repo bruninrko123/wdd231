@@ -206,4 +206,34 @@ footer{
     text-align: center;
 }
 
+
+/* MODALS */
+
+
+::backdrop{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#dialogBox div{
+    display: grid;
+    grid-template-columns: auto 44px;
+    background-color: blue;
+    margin-top: -16px;
+    margin-left: -16px;
+    color: white;
+}
+
+#dialogBox button{
+    width: 60px;
+    font-size: 44px;
+}
+
+#dialogBox{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
 }
