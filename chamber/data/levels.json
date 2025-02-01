@@ -1,0 +1,34 @@
+ [    {
+        "level": "Gold",
+        "benefits": [
+            "Premium Networking Opportunities: Exclusive access to high-level networking events and meetings with industry leaders and key stakeholders.",
+            "Priority Support: Fast-track assistance and personalized support from the Chamber's team for any business-related inquiries.",
+            "Enhanced Visibility: Prominent listing on the Chamber’s website and marketing materials, along with priority placement in promotional campaigns."
+        ]
+    },
+    {
+        "level": "Silver",
+        "benefits": [
+            "Networking Events: Invitations to select networking events and workshops to build valuable business connections.",
+            "Business Resources: Access to a range of business tools, resources, and templates to support growth and development.",
+            "Marketing Opportunities: Inclusion in the Chamber’s business directory and opportunities to participate in community marketing initiatives."
+        ]
+    },
+    {
+        "level": "Bronze",
+        "benefits": [
+            "Basic Networking: Access to regular networking events and opportunities to connect with other local businesses.",
+            "Resource Library: Limited access to the Chamber’s resource library, including business guides and industry reports.",
+            "Discounted Services: Discounts on certain Chamber services, such as training sessions and business seminars."
+        ]
+    },
+    {
+        "level": "Non-Profit",
+        "benefits": [
+            "Community Support: Opportunities to collaborate with other non-profits and community organizations for mutual support and initiatives.",
+            "Special Rates: Reduced rates for participating in Chamber events and access to certain services at no cost.",
+            "Publicity: Promotion through the Chamber’s communications channels, such as newsletters and social media, highlighting your mission and activities."
+        ]
+    }
+
+]

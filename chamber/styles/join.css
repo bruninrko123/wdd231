@@ -1,0 +1,114 @@
+input, select, textarea, button{
+    display: block;
+
+    height: 44px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+input, textarea, button, select{
+    margin-bottom: 2rem;
+    margin-left: 10px;
+}
+label{
+    margin-left: 10px;
+}
+
+input:invalid{
+
+    
+    border-left: 5px solid red;
+}
+
+form{
+    
+    padding: 5px;
+    
+}
+
+form button {
+    font-size: 1.5rem;
+  
+}
+
+input:focus, button:focus{
+    
+    box-shadow: 0 0 10px;
+}
+
+/* CARDS */
+
+#cards section{
+
+    background-color: rgb(255, 255, 203);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    justify-items: center;
+    margin-right: 10px;
+
+    animation: colorChange 2s linear 5s infinite alternate both;
+    
+}
+
+#cards section button{
+    width: 150px;
+}
+
+
+
+main{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 2rem;
+}
+
+
+/* DIALOG */
+
+#dialogBox button{
+    justify-self: center;
+}
+
+#dialogBox{
+    background-color: rgb(203, 255, 255);
+    max-width: 60%;
+    border-radius: 10px;
+}
+
+#dialogBox li{
+
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    font-size: 1rem;
+    line-height: 1.6;
+
+    padding: 8px;
+}
+
+
+
+
+
+::backdrop{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/* ANIMATION */
+
+
+
+@keyframes colorChange {
+
+    from{
+        background-color: rgb(255, 255, 203) ;
+    }
+    
+    to{
+       background-color: rgb(203, 255, 255);
+    }
+}

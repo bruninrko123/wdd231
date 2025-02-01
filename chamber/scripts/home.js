@@ -38,7 +38,7 @@ async function apiFetch() {
 
             const data = await response.json();
 
-            console.log(data);
+            
 
             displayResults(data);
         }
@@ -128,7 +128,7 @@ async function getMembersData(source){
 
         const data = await response.json();
 
-        console.table(data);
+        
 
         const spotlightMembers = data.filter(member => member.membershipLevel < 3);
         
