@@ -32,12 +32,21 @@ function show(cup){
         if(element.startsWith(cup)){
             result = element.split("=")[1].replace("%40", "@").replace(/\+/g, " ");
         }
+
+       
     })
 
     return result;
 }
 
 
+
+    const encondedTime = formData[8].split("=")[1];
+
+    const decodedTime = decodeURIComponent(encondedTime);
+
+    
+    
 
 
 
@@ -51,5 +60,5 @@ results.innerHTML = `
 <p>Organization name: ${show("organizationName")}</p>
 <p>Membership Level: ${show("membership")} </p>
 <p>Organization Description: ${show("description")} </p>
-<p>Applied on:  ${show("time")}</p>
+<p>Applied on:  ${decodedTime.replace(/\+/g, " ")}</p>
 `;""

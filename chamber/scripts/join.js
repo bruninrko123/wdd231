@@ -110,10 +110,10 @@ window.onclick = function(event){
 
 // doing the timestamp
 
-// document.querySelector("#applyForm").addEventListener("submit", () =>{
+
 
     var timeStamp = new Date().toLocaleString();
     let time = document.querySelector("#timestamp");
     time.value = timeStamp;
-    console.log(time);
-// });
+    console.log(time.value);
+
