@@ -1,3 +1,21 @@
+const span = document.querySelector("#lastModified");
+
+
+
+const lastModified = document.lastModified;
+
+
+// span.textContent = lastModified;
+
+span.innerHTML = `<strong> ${lastModified} </strong>`;
+
+
+
+
+
+
+
+
 // hamburguer button
 
 const hamburguer = document.querySelector("#menuHamb");
@@ -86,7 +104,7 @@ async function ForecastFetch(){
 
             const ForecastData = await ForecastResponse.json();
 
-            console.log(ForecastData);
+            
 
             displayForecast(ForecastData);
         }
@@ -151,7 +169,7 @@ async function getMembersData(source){
     
         }
 
-        console.log(randomMembers);
+        
 
         displayMemberCards(randomMembers);
     }

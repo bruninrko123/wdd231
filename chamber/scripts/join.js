@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 // variables
 
 const dialogBox = document.querySelector("#dialogBox");
@@ -17,7 +29,7 @@ async function getLevelData(source){
 
         const data = await response.json();
 
-        console.table(data);
+       
 
         displayLevelCards(data);
 
@@ -93,3 +105,15 @@ window.onclick = function(event){
 }
 
 
+
+// setting the timestamp
+
+// doing the timestamp
+
+// document.querySelector("#applyForm").addEventListener("submit", () =>{
+
+    var timeStamp = new Date().toLocaleString();
+    let time = document.querySelector("#timestamp");
+    time.value = timeStamp;
+    console.log(time);
+// });

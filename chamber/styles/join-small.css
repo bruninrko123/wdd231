@@ -1,4 +1,4 @@
-@media screen and (min-width: 601px) {
+@media screen and (max-width: 600px){
     
 
 
@@ -28,6 +28,8 @@ input:invalid{
 form{
     
     padding: 5px;
+    justify-self: center;
+    width: 80%;
     
 }
 
@@ -43,6 +45,10 @@ input:focus, button:focus{
 
 /* CARDS */
 
+#cards{
+    justify-items: center;
+}
+
 #cards section{
 
     background-color: rgb(255, 255, 203);
@@ -51,6 +57,7 @@ input:focus, button:focus{
     margin-bottom: 1rem;
     justify-items: center;
     margin-right: 10px;
+    width: 80%;
 
     animation: colorChange 10s linear 5s infinite alternate both;
     
@@ -63,8 +70,8 @@ input:focus, button:focus{
 
 
 main{
-    display: grid;
-    grid-template-columns:  1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 

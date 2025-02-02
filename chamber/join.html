@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="styles/directory.css">
 <link rel="stylesheet" href="styles/directory-large.css">
 <link rel="stylesheet" href="styles/join.css">
+<link rel="stylesheet" href="styles/join-small.css">
 <script src="scripts/home.js" defer></script>
 
 <!-- favorite icon-->
@@ -75,7 +76,7 @@
     <main>
     <div id="form">
         <h1>Membership Application form</h1>
-        <form action="thankyou.html" method="get" autocomplete="on">
+        <form id="applyForm" action="thankyou.html" method="get" autocomplete="on">
 
             <label for="firstName">First Name
             <input type="text" id="firstName" name="firstName" autocomplete="firstName" title="Enter your first name" tabindex="1" autofocus required>
@@ -118,7 +119,7 @@
            
         </label>
 
-           <label for="timestamp">
+           <label for="timestamp"> 
            <input type="hidden" id="timestamp" name="timestamp">
         </label>
 
