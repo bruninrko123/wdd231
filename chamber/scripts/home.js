@@ -57,8 +57,9 @@ async function apiFetch() {
             const data = await response.json();
 
             
-
+            
             displayResults(data);
+            displayIcon(data);
         }
         
         else{
@@ -79,8 +80,27 @@ apiFetch();
 
 function displayResults(data){
 
-    weatherInfo.innerHTML = `<strong>${data.main.temp}&deg;F</strong><br>${data.weather[0].description}<br>High: ${data.main.temp_max}&deg;F<br>Low: ${data.main.temp_min}&deg;F<br>Humidity: ${data.main.humidity}%<br>Sunrise: ${data.sys.sunrise.toLocaltimeString()}<br>Sunset: ${data.sys.sunset.toLocaltimeString()}`;
+    let time = data.sys.sunrise;
+    let sunriseTime = new Date(time*1000);
+    
+
+    let time2 = data.sys.sunset;
+    let sunsetTime = new Date(time2*1000);
+    
+
+    weatherInfo.innerHTML = `<strong>${data.main.temp}&deg;F</strong><br>${data.weather[0].description}<br>High: ${data.main.temp_max}&deg;F<br>Low: ${data.main.temp_min}&deg;F<br>Humidity: ${data.main.humidity}%<br>Sunrise: ${sunriseTime.toLocaleTimeString()}<br>Sunset: ${sunsetTime.toLocaleTimeString()}`;
 }   
+
+
+//doing the icon
+
+function displayIcon(data){
+    
+   
+    let icon = document.querySelector("#icon");
+
+    icon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+}
 
 
 

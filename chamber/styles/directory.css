@@ -203,6 +203,10 @@ main{
     grid-template-columns: 1fr 1.3fr;
 }
 
+#weatherData{
+    line-height: 1.6;
+}
+
 #currentWeather p {
     font-size: 1.2rem;
     line-height: 1.3;
