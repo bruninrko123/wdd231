@@ -6,12 +6,13 @@ main{
 
 p, li{
 font-family: "Geist Mono", serif;
-  font-optical-sizing: auto;
+  
   font-weight: 400;
   font-style: normal;
+  color: black;
 }
 
-h1{
+h1, h2{
     font-family: "Sour Gummy", serif;
     font-weight: 600;
     font-style: normal;
@@ -20,4 +21,16 @@ h1{
 
       justify-self: center;
     
+}
+
+h3{
+  font-family: "Sour Gummy", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+img{
+  max-width: 80%;
 }
