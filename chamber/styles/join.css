@@ -52,7 +52,7 @@ input:focus, button:focus{
     justify-items: center;
     margin-right: 10px;
 
-    animation: colorChange 10s linear 5s infinite alternate both;
+    animation: colorChange 4s linear 2s infinite alternate both;
     
 }
 
