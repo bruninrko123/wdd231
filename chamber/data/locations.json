@@ -1,0 +1,76 @@
+
+[
+ 
+  {
+    "name": "Estaleiro Mauá",
+    "opening_hours": "Monday to Friday: 7:00 AM - 5:00 PM, Saturday: 7:00 AM - 4:00 PM",
+    "contact_info": "Commercial Office: +55 21 2613-9999",
+    "website": "https://www.estaleiromaua.ind.br",
+    "address": "R. Dr. Paulo Frumêncio, 153 - Ponta d'Areia, Niterói - RJ, 24040-150, Brazil",
+    "description": "Estaleiro Mauá is a major shipyard in the Rio de Janeiro area, specializing in shipbuilding and repair, playing a significant role in the maritime and offshore industries.",
+    "picture_url": "./images/estaleiro-maua-opt.webp"
+  },
+  {
+    "name": "Polo de Cinema e Vídeo de Jacarepaguá",
+    "opening_hours": "Varies by production schedule",
+    "contact_info": "Riocom Office: +55 21 2421-1650",
+    "website": "https://polorio.com.br",
+    "address": "Estr. dos Bandeirantes, 3000 - Jacarepaguá, Rio de Janeiro - RJ, 22775-109, Brazil",
+    "description": "This film studio complex is a major hub for the Brazilian film industry, hosting the production of movies, TV shows, and commercials, attracting businesses related to filmmaking and post-production.",
+    "picture_url": "./images/polo-rio-opt.webp"
+  },
+  {
+    "name": "Fundição Progresso",
+    "opening_hours": "Monday to Friday: 10:00 AM - 8:00 PM, Saturday: 10:00 AM - 6:00 PM",
+    "contact_info": "Fundição Progresso Office: +55 21 2222-2222",
+    "website": "https://www.fundicaoprogresso.com.br",
+    "address": "Rua dos Arcos, 24 - Centro, Rio de Janeiro - RJ, 20230-060, Brazil",
+    "description": "A cultural hotspot that promotes music, art, and design. It serves as a key venue for creative professionals and businesses looking to engage with Rio’s vibrant cultural scene.",
+    "picture_url": "./images/fundicao-progresso-opt.webp"
+  },
+  {
+    "name": "Porto do Rio de Janeiro",
+    "opening_hours": "24/7",
+    "contact_info": "Porto do Rio de Janeiro Office: +55 21 2222-2222",
+    "website": "https://www.portodorio.com.br",
+    "address": "Av. Rodrigues Alves, s/n - Centro, Rio de Janeiro - RJ, 20081-250, Brazil",
+    "description": "As one of Brazil’s largest and most important ports, Porto do Rio de Janeiro is a key hub for international trade, connecting businesses to global markets and foreign investments.",
+    "picture_url": "./images/porto-rio-opt.webp"
+  },
+  {
+    "name": "Cristo Redentor",
+    "opening_hours": "Daily: 8:00 AM - 7:00 PM",
+    "contact_info": "Cristo Redentor Office: +55 21 2222-2222",
+    "website": "https://www.cristoredentor.com.br",
+    "address": "Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro - RJ, 22290-270, Brazil",
+    "description": "One of the most iconic landmarks in the world, Cristo Redentor is a major tourist attraction and symbol of Brazil's culture and history.",
+    "picture_url": "./images/cristo-opt.webp"
+  },
+  {
+    "name": "Petrobras Headquarters",
+    "opening_hours": "Monday to Friday: 9:00 AM - 5:00 PM",
+    "contact_info": "Petrobras Office: +55 21 2222-2222",
+    "website": "https://www.petrobras.com.br",
+    "address": "Av. República do Chile, 65 - Centro, Rio de Janeiro - RJ, 20031-912, Brazil",
+    "description": "Petrobras is a global leader in oil and gas extraction, with its headquarters in Rio de Janeiro. It plays a crucial role in Brazil's energy sector and offshore exploration.",
+    "picture_url": "./images/oil-and-gas-opt.webp"
+  },
+  {
+    "name": "Web Summit Rio",
+    "opening_hours": "Varies by event schedule",
+    "contact_info": "Web Summit Rio Office: +55 21 2222-2222",
+    "website": "https://www.websummitrio.com.br",
+    "address": "Riocentro - Av. Salvador Allende, 6555 - Barra da Tijuca, Rio de Janeiro - RJ, 22783-127, Brazil",
+    "description": "One of the world's leading tech conferences, Web Summit Rio brings together startups, investors, and tech companies for networking and innovation.",
+    "picture_url": "../chamber/images/web-summit-rj-opt.webp"
+  },
+  {
+    "name": "Fashion Rio",
+    "opening_hours": "Varies by event schedule",
+    "contact_info": "Fashion Rio Office: +55 21 2222-2222",
+    "website": "https://www.fashionrio.com.br",
+    "address": "Av. Rodrigues Alves, 10 - Centro, Rio de Janeiro - RJ, 20081-250, Brazil",
+    "description": "Fashion Rio is one of the most important fashion events in Brazil, showcasing top designers and brands. It serves as a key platform for businesses in design, production, sales, and marketing.",
+    "picture_url": "./images/fashion-rio-opt.webp"
+  }
+]

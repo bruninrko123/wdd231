@@ -14,8 +14,11 @@
  <link rel="stylesheet" href="styles/normalize.css">
 <link rel="stylesheet" href="styles/directory.css">
 <link rel="stylesheet" href="styles/directory-large.css">
+<link rel="stylesheet" href="styles/discover.css">
+<link rel="stylesheet" href="styles/discover-medium.css">
+<link rel="stylesheet" href="styles/discover-large.css">
 
-<script src="scripts/home.js" defer></script>
+<script src="scripts/discover.js" defer></script>
 
 <!-- favorite icon-->
 <link rel="icon" href="images/favIcon-opt.png">
@@ -50,7 +53,7 @@
         <div id="companyIcon">
 
             
-            <img src="images/favIcon-opt.png" alt="Company's icon" width="44">
+            <img src="images/favIcon-opt.png" alt="Company's icon" width="44" height="44">
             <div id="chamberName">
             
             <h1>Rio de Janeiro</h1>
@@ -61,10 +64,10 @@
             
             <nav id="animateMe">
                 <ul id="navigation">
-                    <li><a class="current-menu-item" href="#">Home</a></li>
+                    <li><a  href="index.html">Home</a></li>
                     <li><a  href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="discover.html">Discover</a></li>
+                    <li><a class="current-menu-item" href="discover.html">Discover</a></li>
                     
                 </ul>
             </nav>
@@ -74,52 +77,25 @@
 
     <main>
 
+        <div id="locationCards"></div>
        
-       <div class="heroImage">
-            <a href="join.html" id="callToAction">Join the Chamber Of Commerce</a>
-            <picture>
-                <source srcset="images/Rio-de-Janeiro-large.webp" media="(min-width: 1000px)">
-                <source media="(min-width: 500px)" srcset="images/Rio-de-Janeiro-small.webp">
-                <img src="images/Rio-de-Janeiro-small.webp" alt="Rio de Janeiro Temple" width="500" height="250" class="responsive-image">
-                
-            </picture>
-    </div>
         
-        <h1 id="home">Home</h1>
-        <div class="information">
-            <section class="infoCard">
-                <h2>Events</h2>
-                <ul>
-                    <li><h3>Annual Green Energy Summit</h3> <p>Date: October 15, 2025</p></li>
-                    <li><h3>NextGen Robotics Expo</h3> <p>Date: April 12-14, 2025</p></li>
-                    <li><h3>Healthy Living Fair</h3> <p>Date: May 6, 2025</p></li>
-                    
-                </ul>
-            </section>
-
-            <section class="infoCard">
-                <h2>Current weather</h2>
-                <div id="currentWeather">
-                    <img  id="icon"   src="placeholder.png" alt="weather Icon" width="100">
-                    <p><span id="weatherData"></span></p>
-                </div>
-            </section>
-
-            <section class="infoCard" id="weatherForecast">
-                <h2>Weather forecast</h2>
-                <p><span id="weatherForecastData"></span></p>
-            </section>
-        </div>
+        <dialog id="dialogBox">
+            <h2></h2>
+            <p></p>
+            <button>Close</button>
+    </dialog>
 
         
-        <div class="companyCards"></div>
-    
+
+
     </main>
 
 
     <footer>
         <div>
             <p><strong>Rio de Janeiro Chamber of Commerce</strong><br> Rua Santo Ipanema 254<br> RJChamberOfCommerce@business.org<br>+55 (858) 41556632</p>
+            <div id="pop-up"><p></p> <button>X</button></div>
         </div>
 
 

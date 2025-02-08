@@ -1,0 +1,147 @@
+@media screen and (min-width: 1024px) {
+    
+    #locationCards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        
+    }
+
+
+    article{
+    
+        display: grid;
+        grid-template-areas: 
+        "name name "
+        "figure description"
+        "figure address"
+        "button button ";
+        
+        
+        height: auto;
+        object-fit: cover;
+        max-width: 100%;
+        
+
+
+        
+    }
+
+
+    figure{
+        width: 300px;
+        
+      grid-row: 2/ span 2;
+      margin-right: 10px;
+
+
+        height: auto;
+        object-fit: cover;
+        max-height: 100%;
+    }
+
+    #pop-up p {
+        font-size: 1rem;
+
+    }
+
+    #pop-up{
+
+        /* background-color: rgb(255, 255, 203); */
+        background-color: rgb(134, 255, 255);
+        width: 300px;
+        height: 50px;
+        border-radius: 20px;
+        
+        text-align: center;
+
+        position: absolute;
+        top: 7px;
+        left: 450px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        animation: move 0.4s infinite alternate;
+        
+    }
+
+    #pop-up.hide{
+        display: none;
+    }
+
+    #pop-up button{
+
+        width: 50px;
+        font-size: 1.5rem;
+    }
+
+
+    @keyframes move {
+
+        0%{
+            transform: translateX(0);
+        }
+        50%{
+            transform: translateX(5px);
+        }
+        100%{
+            transform: translateX(10px);
+        }
+        
+    }
+
+    
+
+
+}
+
+
+
+
+@keyframes jump {
+
+    0%{
+        
+        transform: translateY(0);
+        
+      
+        
+    }
+
+    100%{
+       transform: translateY(-5px);
+        
+        
+        box-shadow: 10px 10px 10px 10px rgba(6, 234, 255, 0.3);
+    }
+    
+}
+
+@keyframes return {
+
+    
+
+    0%{
+        transform: translateY(-5px);
+        box-shadow: 10px 10px 10px 10px rgba(1, 62, 67, 0.3);
+       
+    }
+
+    100%{
+        
+        transform: translateY(0);
+        
+        
+        
+    }
+
+
+
+    /* DIALOG BOX */
+
+   
+    
+}
