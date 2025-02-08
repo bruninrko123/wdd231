@@ -31,8 +31,11 @@ async function getLocationData() {
     
 }
 
+let counter = 0;
+
 function displayCards(element){
 
+    counter++;
     const article = document.createElement("article");
     const h2 = document.createElement("h2");
     const figure = document.createElement("figure");
@@ -47,13 +50,15 @@ function displayCards(element){
     h2.textContent = element.name;
     img.src = element.picture_url;
     img.alt = element.name;
-    
+    img.loading = "lazy";
     img.width = 300;
     img.height = 200;
     figure.appendChild(img);
     p.textContent = element.description;
     address.textContent = element.address;
     LearnButton.textContent = "Learn more";
+
+    
 
    
     
