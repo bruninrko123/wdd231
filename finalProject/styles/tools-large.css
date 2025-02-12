@@ -1,0 +1,28 @@
+@media screen and (min-width: 853px) {
+
+
+    #toolCards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    article{
+
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        display: grid;
+        grid-template-areas: 
+        "h2 h2"
+        "figure p"
+        "button button";
+
+        grid-template-columns: 1fr 2fr;
+        
+    }
+    
+    
+
+    article p{
+        padding-left: 10px;
+    }
+}

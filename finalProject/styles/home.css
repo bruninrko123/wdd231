@@ -1,0 +1,113 @@
+#heroImage{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#responsive-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+
+
+article{
+    background-color: #e8fccf;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: 
+    "h2"
+    "p"
+    "figure"
+    "button";
+    width: auto;
+    justify-self: center;
+    margin: 10px 10px;
+
+    /* animation: rotate-out 1s linear 0s  normal none; */
+    
+}
+
+article.open{
+    animation: rotate-in 1s linear 0s  normal none;
+
+}
+
+/* @keyframes rotate-out {
+
+    0%{
+        opacity: 1;
+    }
+   
+
+    100%{
+        opacity: 0;
+    }
+    
+} */
+
+@keyframes rotate-in {
+
+    0%{
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(150px);
+    }
+    
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+article h2{
+    grid-area: h2;
+}
+
+article figure{
+    grid-area: figure;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: -40px
+   
+}
+
+article figure img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 200px;
+   
+    
+    
+}
+
+article p{
+    grid-area: p;
+    overflow: hidden;
+}
+
+article button{
+    grid-area: button;
+    height: 44px;
+}
+
+
+
+
+#effectPhrase{
+    position: relative;
+    left: 20px;
+    top: 350px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    
+}

@@ -1,0 +1,129 @@
+@media screen and (max-width: 600px) {
+    
+
+
+p{
+    
+    font-family: "Geist Mono", serif;
+          
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+      
+}
+
+    h1, h2{
+
+        font-family: "Sour Gummy", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+    
+    }
+
+body{
+    background-color: #96E072;
+}
+
+/* HEADER */
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#companyIcon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+#navigation li{
+    list-style: none;
+    display: block;
+}
+
+
+
+#navigation a{
+    display: block;
+    list-style: none;
+    gap: 2.4rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    height: 44px;
+    
+    
+}
+#navigation li{
+    display: block;
+}
+
+nav ul a{
+    text-decoration: none;
+
+}
+
+nav ul a:hover{
+    
+    background-color: rgba(0, 0, 0, 0.3)
+   
+}
+
+/* HAMBURGUER */
+
+#hamburguer::before{
+    content: "☰";
+
+}
+
+
+#hamburguer.show::before{
+    content: "X";
+}
+
+#hamburguer{
+    height: 44px;
+    width: 44px;
+
+    position: absolute;
+    top: 27px;
+    right: 30px;
+    cursor: pointer;
+}
+
+
+nav{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out; 
+}
+
+nav.show{
+    grid-template-rows: 1fr;
+   
+}
+
+nav ul{overflow: hidden;}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+}
+
+

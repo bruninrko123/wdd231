@@ -1,0 +1,83 @@
+@media screen and (min-width: 601px){
+
+    p{
+    
+        font-family: "Geist Mono", serif;
+              
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+          
+    }
+
+
+
+
+    h1, h2{
+
+        font-family: "Sour Gummy", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+    
+    }
+
+
+
+
+    body{
+        background-color: #96E072;
+    }
+    
+    /* HEADER */
+    
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #companyIcon{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    nav ul{
+        display: flex;
+        list-style: none;
+        gap: 2.4rem;
+        font-size: 1.5rem;
+        
+    }
+    
+    nav ul a{
+        text-decoration: none;
+    
+    }
+    
+    nav ul a:hover{
+        
+        box-shadow:  5px 5px 5px;
+    }
+    
+    
+    #hamburguer{
+        display: none;
+    }
+    
+    
+    /* FOOTER */
+    
+    footer{
+        text-align: center;
+    }
+
+    
+    
+}

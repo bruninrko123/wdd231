@@ -1,0 +1,47 @@
+@media screen and (min-width: 601px) 
+
+{
+
+    article{
+
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        display: grid;
+        grid-template-areas: 
+        "h2 h2"
+        "figure p"
+        "button button";
+
+        grid-template-columns: 1fr 2fr;
+
+        
+    }
+    
+    article:hover{
+        animation: pop 0.2s linear 0.5 alternate both;
+        
+    }
+
+    article p{
+        padding-left: 10px;
+    }
+
+
+    @keyframes pop {
+
+        0%{
+            transform: translateY(0);
+        }
+
+        100%{
+            transform: translateY(-20px);
+            box-shadow: 5px 5px blue;
+            
+            
+        }
+        
+    }
+
+    
+}

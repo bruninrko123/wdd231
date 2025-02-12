@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Copy.ai",
+    "website": "https://www.copy.ai",
+    "used_for": "Content Writing",
+    "description": "Generate high-quality blog posts, social media content, and marketing copy.",
+    "image": "./images/copy-ai-opt.webp",
+    "user_highlight": "Over 2 million users trust Copy.ai for their content creation needs.",
+    "unique_feature": "Offers more than 90+ tools to generate different types of content.",
+    "fun_fact": "Copy.ai can create an entire blog post from a single sentence prompt!",
+    "price": "Free plan available; paid plans start at $49/month."
+  },
+  {
+    "name": "Grammarly",
+    "website": "https://www.grammarly.com",
+    "used_for": "Grammar and Spell Checking",
+    "description": "Improve writing with grammar, punctuation, style, and tone suggestions.",
+    "image": "./images/grammarly-opt.webp",
+    "user_highlight": "Used by over 30 million people worldwide to enhance their writing.",
+    "unique_feature": "Integrates seamlessly with web browsers, Microsoft Office, and Google Docs.",
+    "fun_fact": "Grammarly not only checks grammar but also provides style and tone suggestions.",
+    "price": "Free plan available; Premium plan starts at $12/month."
+  },
+  {
+    "name": "Duolingo",
+    "website": "https://www.duolingo.com",
+    "used_for": "Language Learning",
+    "description": "Learn languages with gamified lessons and practice sessions.",
+    "image": "./images/duolingo-opt.webp",
+    "user_highlight": "More than 500 million users are learning languages with Duolingo.",
+    "unique_feature": "Gamified lessons make learning fun and engaging.",
+    "fun_fact": "The Duolingo owl, Duo, has become an internet meme sensation!",
+    "price": "Free plan available; Duolingo Plus starts at $6.99/month."
+  },
+  {
+    "name": "Babbel",
+    "website": "https://www.babbel.com",
+    "used_for": "Language Learning",
+    "description": "Interactive courses focused on real-life conversation in various languages.",
+    "image": "./images/babbel-opt.webp",
+    "user_highlight": "Trusted by millions of learners worldwide.",
+    "unique_feature": "Focuses on real-life conversation skills.",
+    "fun_fact": "Babbel offers courses in 14 different languages.",
+    "price": "Subscription starts at $12.95/month."
+  },
+  {
+    "name": "Repl.it",
+    "website": "https://www.replit.com",
+    "used_for": "Coding",
+    "description": "Collaborative online IDE supporting multiple programming languages.",
+    "image": "./images/repl-it-opt.webp",
+    "user_highlight": "Used by millions of developers and students to learn coding.",
+    "unique_feature": "Collaborative coding environment with real-time sharing and commenting.",
+    "fun_fact": "Repl.it supports over 50 programming languages.",
+    "price": "Free plan available; paid plans start at $7/month."
+  },
+  {
+    "name": "GitHub Copilot",
+    "website": "https://github.com/features/copilot",
+    "used_for": "Coding Assistance",
+    "description": "AI-powered code suggestions and completions in real-time.",
+    "image": "./images/github-copilot-opt.webp",
+    "user_highlight": "Revolutionizes coding for developers using GitHub.",
+    "unique_feature": "Provides AI-powered code suggestions and completions in real-time.",
+    "fun_fact": "GitHub Copilot can help you write code faster and with fewer errors.",
+    "price": "$10/month or $100/year."
+  },
+  {
+    "name": "Canva",
+    "website": "https://www.canva.com",
+    "used_for": "Design",
+    "description": "User-friendly tool for creating graphics, presentations, and social media posts.",
+    "image": "./images/canva-opt.webp",
+    "user_highlight": "Over 60 million people use Canva to create stunning graphics.",
+    "unique_feature": "Drag-and-drop interface makes design accessible to everyone.",
+    "fun_fact": "Canva offers thousands of templates for social media, presentations, posters, and more.",
+    "price": "Free plan available; Pro plan starts at $12.99/month."
+  },
+  {
+    "name": "Adobe Creative Cloud",
+    "website": "https://www.adobe.com/creativecloud.html",
+    "used_for": "Professional Design",
+    "description": "Suite of applications for graphic design, video editing, and more.",
+    "image": "./images/adobe-creative-cloud-opt.webp",
+    "user_highlight": "Used by professionals and creatives globally.",
+    "unique_feature": "Comprehensive suite of tools for graphic design, video editing, and web development.",
+    "fun_fact": "Adobe Creative Cloud includes industry-standard software like Photoshop and Premiere Pro.",
+    "price": "Plans start at $9.99/month for individual apps, $54.99/month for the full suite."
+  },
+  {
+    "name": "Notion",
+    "website": "https://www.notion.so",
+    "used_for": "Productivity",
+    "description": "All-in-one workspace for note-taking, task management, and project collaboration.",
+    "image": "./images/notion-ai-opt.webp",
+    "user_highlight": "Favored by productivity enthusiasts and teams for its versatility.",
+    "unique_feature": "Combines note-taking, task management, and collaboration in one platform.",
+    "fun_fact": "Notion can be customized with templates, databases, and integrations.",
+    "price": "Free plan available; Personal Pro plan starts at $4/month."
+  },
+  {
+    "name": "Trello",
+    "website": "https://www.trello.com",
+    "used_for": "Project Management",
+    "description": "Visual tool for organizing tasks and projects using boards, lists, and cards.",
+    "image": "./images/trello-opt.webp",
+    "user_highlight": "Millions of users organize their projects with Trello.",
+    "unique_feature": "Visual boards, lists, and cards for project management.",
+    "fun_fact": "Trello integrates with other productivity tools like Slack, Google Drive, and Jira.",
+    "price": "Free plan available; Business Class starts at $10 per user/month."
+  },
+  {
+    "name": "Jasper.ai",
+    "website": "https://www.jasper.ai",
+    "used_for": "Content Generation",
+    "description": "AI writing assistant for generating marketing copy, blog posts, and more.",
+    "image": "./images/jasper-ai-opt.webp",
+    "user_highlight": "Helps businesses and marketers create content quickly.",
+    "unique_feature": "AI-driven writing assistant for marketing copy, blog posts, and more.",
+    "fun_fact": "Jasper.ai can generate content ideas and outlines in seconds.",
+    "price": "Starts at $39/month."
+  },
+  {
+    "name": "Lingvist",
+    "website": "https://www.lingvist.com",
+    "used_for": "Language Learning",
+    "description": "AI-driven language learning app focusing on vocabulary acquisition.",
+    "image": "./images/lingvist-opt.webp",
+    "user_highlight": "Personalized language learning for thousands of users.",
+    "unique_feature": "Focuses on rapid vocabulary acquisition using AI.",
+    "fun_fact": "Lingvist tailors lessons based on your learning pace and progress.",
+    "price": "Free plan available; Premium plan starts at $9.99/month."
+  },
+  {
+    "name": "Miro",
+    "website": "https://www.miro.com",
+    "used_for": "Collaboration",
+    "description": "Online collaborative whiteboard platform for team brainstorming and project planning.",
+    "image": "https://assets.miro.com/logo.png",
+    "user_highlight": "Used by remote teams for collaborative brainstorming and planning.",
+    "unique_feature": "Online whiteboard platform with real-time collaboration.",
+    "fun_fact": "Miro offers templates for mind maps, flowcharts, and more.",
+    "price": "Free plan available; Business plan starts at $8/user/month."
+  },
+  {
+    "name": "Otter.ai",
+    "website": "https://www.otter.ai",
+    "used_for": "Transcription",
+    "description": "AI-powered transcription service for meetings, interviews, and lectures.",
+    "image": "https://assets.otter.ai/logo.png",
+    "user_highlight": "Transcribes meetings and lectures for professionals and students.",
+    "unique_feature": "AI-powered transcription with high accuracy.",
+    "fun_fact": "Otter.ai can integrate with Zoom to automatically transcribe meetings.",
+    "price": "Free plan available; Premium plan starts at $8.33/month."
+  },
+  {
+    "name": "Synthesia",
+    "website": "https://www.synthesia.io",
+    "used_for": "Video Creation",
+    "description": "AI tool for creating professional videos using synthetic avatars and voices.",
+    "image": "https://assets.synthesia.io/logo.png",
+    "user_highlight": "Revolutionizes video creation for businesses and educators.",
+    "unique_feature": "AI-generated videos with synthetic avatars and voices.",
+    "fun_fact": "Synthesia can create videos in multiple languages and accents.",
+    "price": "Starts at $30/month."
+  }
+]
+

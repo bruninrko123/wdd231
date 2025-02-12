@@ -1,0 +1,34 @@
+@media screen and (min-width: 601px ) {
+
+    article{
+        background-color: #e8fccf;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        display: grid;
+        grid-template-areas: 
+        "h2 h2"
+        "figure p"
+        "button button";
+
+        width: auto;
+        justify-self: center;
+        margin: 10px 10px;
+    
+        
+        
+    }
+
+
+    #effectPhrase{
+        position: relative;
+        left: 20px;
+        top: 400px;
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+        line-height: 1.5;
+        
+    }
+
+    
+}
