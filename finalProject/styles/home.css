@@ -27,10 +27,12 @@ article{
     width: auto;
     justify-self: center;
     margin: 10px 10px;
+    gap: 10px;
 
     /* animation: rotate-out 1s linear 0s  normal none; */
     
 }
+
 
 article.open{
     animation: rotate-in 1s linear 0s  normal none;

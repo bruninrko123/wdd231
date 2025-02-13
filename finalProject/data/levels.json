@@ -1,0 +1,35 @@
+[
+    {
+      "level": "VIP",
+      "benefits": [
+        "Priority Access to New Tools",
+        "Exclusive Webinars",
+        "24/7 Dedicated Support",
+        "Advanced Customization",
+        "AI Advisory Board Access",
+        "VIP Community"
+      ]
+    },
+    {
+      "level": "Premium",
+      "benefits": [
+        "Early Access to New Features",
+        "Monthly Q&A Sessions",
+        "Enhanced Support",
+        "Customization Options",
+        "Premium Learning Resources",
+        "Community Access"
+      ]
+    },
+    {
+      "level": "Limited",
+      "benefits": [
+        "Access to Basic Tools",
+        "Regular Updates",
+        "Standard Support",
+        "Learning Resources",
+        "Community Forum"
+      ]
+    }
+  ]
+  

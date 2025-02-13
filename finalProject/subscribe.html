@@ -24,11 +24,28 @@
       <link rel="stylesheet" href="styles/normalize.css">
       <link rel="stylesheet" href="styles/base.css">
       <link rel="stylesheet" href="styles/base-large.css">
-      
+      <link rel="stylesheet" href="styles/subscribe.css">
 
 
       <script src="scripts/basics.js" defer></script>
+      <script src="scripts/subscribe.js" type="module" defer></script>
       
+
+
+      <!-- meta tags -->
+      <meta property="og:title" content="AI compass">
+      <meta property="og:image" content="https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d70e/6793b19172e8fe2cef539a9d_ai_tools.webp">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://bruninrko123.github.io/wdd231/finalProject/index.html">
+      <meta property="og:description" content="A website that introduces you to several AI tools and gives you basic understanding about them">
+
+   
+    <!-- twitter (x) meta tags -->
+     <meta name="twitter:title" content="AI compass">
+     <meta name="twitter:image" content="https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d70e/6793b19172e8fe2cef539a9d_ai_tools.webp">
+     <meta name="twitter:card" content="website">
+     <meta name="twitter:url" content="https://bruninrko123.github.io/wdd231/finalProject/index.html">
+     <meta name="twitter:description" content="A website that introduces you to several AI tools and gives you basic understanding about them">
 
 
 
@@ -58,6 +75,37 @@
     </header>
 
     <main>
+        <h1>Subscription page</h1>
+        <form action="thankyou.html" method="get" autocomplete="on">
+            <label for="firstName">First name:
+                <input type="text" id="firstName" name="firstName" autocomplete="given-name" title="Enter your first name" tabindex="1" autofocus required>
+
+            </label>
+
+            <label for="lastName">Last name:
+                <input type="text" id="lastName" name="lastName" autocomplete="family-name" title="Enter your last name" tabindex="2" >
+            </label>
+
+            <label for="email">Email adress:
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="example@organization.com" title="Enter your email adress" tabindex="3" required>
+            </label>
+
+            <label for="SubscriptionLevel">Subscription level:
+                <select name="subscriptionLevel" id="subscriptionLevel" tabindex="4">
+                    <option value="" id="selectPlaceholder" disabled selected>Choose a subscription level</option>
+                    <option value="VIP">VIP</option>
+                    <option value="premium">Premium</option>
+                    <option value="limited">Limited</option>
+                </select>
+            </label>
+            
+            <button type="submit" tabindex="5">Subscribe to the community</button>
+        </form>
+        <button id="levelLearn">?</button>
+        
+        <dialog id="dialogBox">
+            
+        </dialog>
         
     </main>
 

@@ -1,0 +1,37 @@
+label{
+    display: block;
+    margin: 10px;
+
+}
+
+input, select{
+    height: 44px;
+    border-radius: 10px;
+    display: block;
+}
+
+button{
+    height: 44px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+form{
+    background-color: #e8fccf;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+#selectPlaceholder{
+    color: #aaa;
+    
+    
+}
+
+#levelLearn{
+    padding: 10px;
+    border-radius: 30px;
+}

@@ -12,6 +12,13 @@ p{
       
 }
 
+label{
+    font-family: "Geist Mono", serif;
+          
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
     h1, h2{
 
         font-family: "Sour Gummy", serif;

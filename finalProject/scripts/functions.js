@@ -47,7 +47,7 @@
         
         h2.innerHTML =`${element.name} - used for: ${element.used_for}`;
         p.innerHTML = `${element.description}<br><br>Website: <a href="${element.website}">${element.website}</a>`;
-        figure.innerHTML = `<img src = "${element.image}" alt="${element.name} image" width="300" height="200">`;
+        figure.innerHTML = `<img src = "${element.image}" alt="${element.name} image" loading="lazy" width="300" height="200">`;
         learnButton.textContent = "Learn more";
 
         article.append(h2,p,figure,learnButton);
@@ -121,14 +121,14 @@ export async function displayRandomCard(){
         const h2 = document.createElement("h2");
         const p = document.createElement("p");
         const figure = document.createElement("figure");
-        const learnButton = document.createElement("button");
+        
         
         h2.innerHTML =`${card.name} - used for: ${card.used_for}`;
         p.innerHTML = `${card.description}<br><br>Website: <a href="${card.website}">${card.website}</a>`;
-        figure.innerHTML = `<img src = "${card.image}" alt="${card.name} image" width="300" height="200">`;
-        learnButton.textContent = "Learn more";
+        figure.innerHTML = `<img src = "${card.image}" alt="${card.name} image" loading="lazy" width="300" height="200" >`;
+        
         article.classList.add("open");
-        article.append(h2,p,figure,learnButton);
+        article.append(h2,p,figure);
 
         div.appendChild(article);
 
@@ -138,6 +138,46 @@ export async function displayRandomCard(){
           
         }, 5000);
     
+
+}
+
+
+
+export function levelModal(data){
+
+    const levelButton = document.querySelector("#levelLearn");
+
+    levelButton.addEventListener("click", () =>{
+
+        const dialogBox = document.querySelector("#dialogBox");
+        dialogBox.innerHTML = ``;
+
+
+        data.forEach(element => {
+          const div = document.createElement("div");
+          const h2 = document.createElement("h2");
+          const ul = document.createElement("ul");
+          
+          h2.textContent = element.level;
+          element.benefits.forEach(benefit => {
+            let li = document.createElement("li");
+            li.textContent = benefit;
+            ul.appendChild(li)
+          });
+          
+          div.append(h2, ul);
+          dialogBox.append(div);
+          
+        });
+        const closeButton = document.createElement("button")
+
+          dialogBox.appendChild(closeButton);
+          dialogBox.showModal();
+
+          closeButton.addEventListener("click", () =>{
+            dialogBox.close()
+        })
+    })
 
 }
 
