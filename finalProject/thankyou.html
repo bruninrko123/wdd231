@@ -24,13 +24,11 @@
       <link rel="stylesheet" href="styles/normalize.css">
       <link rel="stylesheet" href="styles/base.css">
       <link rel="stylesheet" href="styles/base-large.css">
-      <link rel="stylesheet" href="styles/home.css">
-      <link rel="stylesheet" href="styles/home-medium.css">
-      <link rel="stylesheet" href="styles/home-large.css">
+      <link rel="stylesheet" href="styles/thankyou.css">
 
 
-      <script src="scripts/basics.js" defer></script>
-      <script src="scripts/home.js" type="module" defer></script>
+      <script src="scripts/basics.js" defer type="module"></script>
+      <script src="scripts/thankyou.js" defer type="module"></script>
 
     
       <!-- meta tags -->
@@ -68,28 +66,19 @@
             </ul>
         </nav>
         
-        <button aria-label="hamburguerButton" id="hamburguer"></button>
+        <button id="hamburguer"></button>
     </header>
 
     <main>
-        <h1>Home</h1>
-        <div id="heroImage">
-            <h2 id="effectPhrase">Step into the Future with AI:<br> Tools, Insights, Inspiration</h2>
-            <picture>
-            <source media="(min-width: 800px )" srcset="images/hero-opt.webp">
-            <source media="(min-width: 400px )" srcset="images/hero-medium-opt.webp">
-            <img src="images/hero-opt.webp" alt="A futuristic AI-powered city" id="responsive-image" height="300" width="300">
-        </picture>
-    </div>
-
-
-    <div id="animatedCard"></div>
+      
+        <div id="results"></div>
+    
     </main>
 
     <footer>
         <p id="copyright"></p>
         <p id="lastModified"></p>
-        <p id="membershipTime"></p>
+        
     </footer>
     
 </body>

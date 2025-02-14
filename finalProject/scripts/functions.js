@@ -170,6 +170,7 @@ export function levelModal(data){
           
         });
         const closeButton = document.createElement("button")
+        closeButton.textContent = "Close";
 
           dialogBox.appendChild(closeButton);
           dialogBox.showModal();
@@ -182,3 +183,75 @@ export function levelModal(data){
 }
 
 
+
+
+
+
+
+
+export function showFormResults(cup){
+    
+  const currentUrl = window.location.href;
+  let result = "";  
+  const formData = currentUrl.split("?")[1].split("&");
+  
+  
+  
+  formData.forEach(element => {
+
+      if(element.startsWith(cup)){
+          result = element.split("=")[1].replace("%40", "@");
+      }
+
+      
+    });
+    
+    return result
+}
+
+
+
+export function saveSubscriptionTime(){
+
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", () =>{
+
+    const subscriptionTime = new Date();
+
+    console.log(subscriptionTime);
+
+    localStorage.setItem("subscriptionTime", subscriptionTime.toISOString());
+
+
+  })
+
+
+}
+
+
+export function calculateMembershipTime(){
+
+  let subscriptionTime = localStorage.getItem("subscriptionTime");
+
+  if(subscriptionTime){
+    let now = new Date();
+
+    subscriptionTime = new Date(subscriptionTime);
+
+
+    const timeDifference = now - subscriptionTime;
+
+    let memberShipTimeInDays = Math.floor(timeDifference / (1000*60*60*24));
+
+    memberShipTimeInDays += 120;
+    
+    console.log(memberShipTimeInDays);
+
+    // saving it to the footer
+
+    const footerP = document.querySelector("#membershipTime");
+
+    footerP.innerHTML = `Congratulations! You have been a member for ${memberShipTimeInDays} days`;
+  }
+}

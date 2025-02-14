@@ -20,3 +20,18 @@ if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
   } else {
     console.log('The page was not refreshed or reloaded.');
   }
+
+
+
+
+
+
+
+  // membership time
+
+import { saveSubscriptionTime, calculateMembershipTime } from "./functions.js";
+
+
+
+
+calculateMembershipTime();

@@ -37,4 +37,13 @@ window.onclick = function(event){
 
 
 
+  // membership time
+
+  import { saveSubscriptionTime, calculateMembershipTime } from "./functions.js";
+
+
+
+
+  calculateMembershipTime();
+
 

@@ -34,4 +34,14 @@ form{
 #levelLearn{
     padding: 10px;
     border-radius: 30px;
+    position: absolute;
+    left: 350px;
+    top: 420px;
+    
+}
+
+
+
+::backdrop{
+    background-color: rgba(0, 0, 0, 0.6);
 }

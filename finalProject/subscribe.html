@@ -71,7 +71,7 @@
             </ul>
         </nav>
         
-        <button id="hamburguer"></button>
+        <button aria-label="hamburguerButton" id="hamburguer"></button>
     </header>
 
     <main>
@@ -90,7 +90,7 @@
                 <input type="email" id="email" name="email" autocomplete="email" placeholder="example@organization.com" title="Enter your email adress" tabindex="3" required>
             </label>
 
-            <label for="SubscriptionLevel">Subscription level:
+            <label for="subscriptionLevel">Subscription level:
                 <select name="subscriptionLevel" id="subscriptionLevel" tabindex="4">
                     <option value="" id="selectPlaceholder" disabled selected>Choose a subscription level</option>
                     <option value="VIP">VIP</option>
@@ -99,9 +99,9 @@
                 </select>
             </label>
             
-            <button type="submit" tabindex="5">Subscribe to the community</button>
+            <button aria-label="submit" type="submit" tabindex="5">Subscribe to the community</button>
         </form>
-        <button id="levelLearn">?</button>
+        <button aria-label="learnMore" id="levelLearn">?</button>
         
         <dialog id="dialogBox">
             
@@ -112,6 +112,7 @@
     <footer>
         <p id="copyright"></p>
         <p id="lastModified"></p>
+        <p id="membershipTime"></p>
     </footer>
     
 </body>

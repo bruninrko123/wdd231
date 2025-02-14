@@ -68,3 +68,7 @@ dialog{
     background-color: #e8fccf;
 }
 
+
+::backdrop{
+    background-color: rgba(0, 0, 0, 0.6);
+}

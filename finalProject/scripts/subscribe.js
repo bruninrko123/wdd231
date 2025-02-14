@@ -20,3 +20,15 @@ window.onclick = function(event){
         dialogBox.close();
     }
 }
+
+
+
+
+// membership time
+
+import { saveSubscriptionTime, calculateMembershipTime } from "./functions.js";
+
+
+saveSubscriptionTime();
+
+calculateMembershipTime();
