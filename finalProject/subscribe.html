@@ -25,7 +25,7 @@
       <link rel="stylesheet" href="styles/base.css">
       <link rel="stylesheet" href="styles/base-large.css">
       <link rel="stylesheet" href="styles/subscribe.css">
-
+        <link rel="stylesheet" href="styles/subscribe-large.css">
 
       <script src="scripts/basics.js" defer></script>
       <script src="scripts/subscribe.js" type="module"></script>
@@ -90,6 +90,7 @@
                 <input type="email" id="email" name="email" autocomplete="email" placeholder="example@organization.com" title="Enter your email adress" tabindex="3" required>
             </label>
 
+            <button aria-label="learnMore" type="button" id="levelLearn">?</button>
             <label for="subscriptionLevel">Subscription level:
                 <select name="subscriptionLevel" id="subscriptionLevel" tabindex="4">
                     <option value="" id="selectPlaceholder" disabled selected>Choose a subscription level</option>
@@ -101,7 +102,6 @@
             
             <button aria-label="submit" type="submit" tabindex="5">Subscribe to the community</button>
         </form>
-        <button aria-label="learnMore" id="levelLearn">?</button>
         
         <dialog id="dialogBox">
             
