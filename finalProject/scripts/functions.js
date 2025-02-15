@@ -244,7 +244,7 @@ export function calculateMembershipTime(){
 
     let memberShipTimeInDays = Math.floor(timeDifference / (1000*60*60*24));
 
-    memberShipTimeInDays += 120;
+    
     
     console.log(memberShipTimeInDays);
 
@@ -254,4 +254,52 @@ export function calculateMembershipTime(){
 
     footerP.innerHTML = `Congratulations! You have been a member for ${memberShipTimeInDays} days`;
   }
+}
+
+
+
+
+
+// doing the branching buttons
+
+
+export function cardsBranching(data){
+
+  const grammar = document.querySelector("#writingGrammar")
+  const learning = document.querySelector("#learninglanguages")
+  const coding = document.querySelector("#codingdevelopment")
+  const design = document.querySelector("#designproductivitycollaboration")
+  const allTools = document.querySelector("#showAll")
+
+  const div = document.querySelector("#toolCards")
+
+
+  allTools.addEventListener("click", () =>{
+    div.innerHTML = ``;
+    displayToolCards(data);
+  })
+
+  grammar.addEventListener("click", () =>{
+    div.innerHTML = ``;
+    const grammarTools = data.filter(tool => tool.category === "Writing & Grammar")
+    displayToolCards(grammarTools)
+  })
+
+  learning.addEventListener("click", () =>{
+    div.innerHTML = ``;
+    const learningTools = data.filter(tool => tool.category === "Learning & Languages")
+    displayToolCards(learningTools)
+  })
+
+  coding.addEventListener("click", () =>{
+    div.innerHTML = ``;
+    const codingTools = data.filter(tool => tool.category === "Coding & Development")
+    displayToolCards(codingTools)
+  })
+
+  design.addEventListener("click", () =>{
+    div.innerHTML = ``;
+    const designTools = data.filter(tool => tool.category === "Design, Productivity & Collaboration")
+    displayToolCards(designTools)
+  })
 }

@@ -47,3 +47,10 @@ window.onclick = function(event){
   calculateMembershipTime();
 
 
+  // branching
+
+  import { cardsBranching } from "./functions.js";
+
+  cardsBranching(data);
+
+
