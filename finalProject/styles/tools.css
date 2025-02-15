@@ -72,3 +72,21 @@ dialog{
 ::backdrop{
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+#branchButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+#branchButtons button{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 44px;
+}
+
+#branchButtons button:hover{
+    background-color: rgb(153, 255, 255);
+}
